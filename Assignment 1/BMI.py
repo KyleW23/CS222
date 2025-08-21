@@ -4,7 +4,7 @@ def main():
 
     # Round BMI to 2 decimal places
     BMI = (weight * 703) / (height **2)
-    print('Your BMI is: ', BMI)
+    print(f'Your BMI is: {BMI:.2f}')
 
     if BMI < 18.5:
         print('You are underweight.')
