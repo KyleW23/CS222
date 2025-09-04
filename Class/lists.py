@@ -9,5 +9,8 @@ def main():
     print(midterm)
     midterm.remove(90)
     print(midterm)
+    print(midterm[2:5])
+    print(midterm[:3])
+    print(midterm[1:])
 
 main()
